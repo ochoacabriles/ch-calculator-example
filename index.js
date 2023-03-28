@@ -4,10 +4,10 @@
  * @param {number} b Second number to add
  * @returns {number} a * b
  */
-export const add = (a, b) => a + b;
+module.exports.add = (a, b) => a + b;
 
-export const subtract = (a, b) => b - a;
+module.exports.subtract = (a, b) => b - a;
 
-export const multiply = (a, b) => a * b;
+module.exports.multiply = (a, b) => a * b;
 
-export const divide = (a, b) => b / a;
+module.exports.divide = (a, b) => b / a;
